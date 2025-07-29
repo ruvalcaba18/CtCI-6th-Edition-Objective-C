@@ -10,7 +10,7 @@
 @implementation LinkedListNode
 @synthesize nextNode, value;
 
-- (instancetype)initWithValue:(NSInteger)value withNextNode:(LinkedListNode *)nextNode {
+- (instancetype)initWithValue:(NSInteger)value withNextNode:(LinkedListNode *_Nullable)nextNode {
     self = [super init];
     if (self) {
         self.value = value;

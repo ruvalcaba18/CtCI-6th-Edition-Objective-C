@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, nullable) LinkedListNode *nextNode;
 @property (nonatomic, assign) NSInteger value;
 
--(instancetype)initWithValue:(NSInteger)value withNextNode:(LinkedListNode *)nextNode;
+-(instancetype)initWithValue:(NSInteger)value withNextNode:(LinkedListNode *_Nullable)nextNode;
 @end
 
 NS_ASSUME_NONNULL_END
